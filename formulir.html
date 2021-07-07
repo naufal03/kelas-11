@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h3 align=center>Formulir Pendaftaran Naufal Arkan</h3>
+    <form method="post">
+        <table border="0" align="center" width=500>
+            <tr>
+                <td>:</td>
+                <td><input type=text name=nama size=20></td>
+            </tr>
+            <tr>
+                <td width=30%>Email</td>
+                <td>:</td>
+                <td><input type=text name=Email size=20></td>
+            </tr>
+            <tr> 
+                <td width=30%>Password</td>
+                <td>:</td>
+                <td><input type=text name=pasword size=20></td>
+            </tr>
+            <tr> 
+                <td width=30%>tanggal lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal" /></td>
+            </tr>
+            <tr>
+                <td widtg=30%>Jenis kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" value="Laki Laki" checked name="jenis kelamin">laki laki <br>
+                    <input type="radio" value="perempuan" checked name="jenis kelamin">perempuan <br>
+            </tr>
+            <tr>
+                <td widtg=30%> Jurusan</td>
+                <td>:</td>
+                <td>
+                    <select name="jurusan">
+                        <option value=RPL selected>Rekayasa Perangkat Lunak</option>
+                        <option value=EI >Elektronikal Industri</option>
+                        <option value=LAS >Teknik Pengelasan</option>
+                        <option value=IL >Teknik Istrumentasi Logam</option>
+                        <option value=Kimia >Kimia Industri</option> </td>
+            </tr> 
+            <tr>
+                <td widtg=30%> hobi</td>
+                <td>:</td>
+                <td>
+                    <input type=checkbox name=c1 chaked> Game
+                    <input type=checkbox name=c2> Bulu tangkis
+                    <input type=checkbox name=c3> Futsal <br>
+                    <input type=checkbox name=c4> Renang 
+                    <input type=checkbox name=c5> Memasak
+            </tr>
+            <tr>
+                <td widtg=30%> Alamat</td>
+                <td>:</td>
+                <td>
+                <textarea name="textbox1" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width=30%>Foto</td>
+                <td>:</td>
+                <td><input type=file name=foto size=30 accept="image/*"/></td>
+            </tr>
+        </table>
+        <p align=center>
+            <input type=submit value=kirim name=b1 > 
+            <input type=reset value=batal name=b2>
+        </table>
+    </form>
+
+</body>
+</html>
